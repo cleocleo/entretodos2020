@@ -11,7 +11,7 @@
   publish = "site/public/"
 
   # Default build command.
-  command = "gatbsy build"
+  command = "npm run build"
 
   # Directory with the serverless Lambda functions to deploy to AWS.
   # functions = "site/functions/"

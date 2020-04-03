@@ -15,10 +15,3 @@
 
   # Directory with the serverless Lambda functions to deploy to AWS.
   # functions = "site/functions/"
-
-# Production context: all deploys from the Production branch set in your site's
-# deploy contexts will inherit these settings.
-[context.production]
-  publish = "site/public/"
-  command = "npm run build"
-  environment = { ACCESS_TOKEN = "super secret", NODE_VERSION = "8.0.1" }

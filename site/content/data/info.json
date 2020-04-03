@@ -1,0 +1,13 @@
+{
+  "description": "<p>O Festival ENTRETODOS acontece entre os dias 09 e 14 de Setembro, em mais de 40 pontos de cinema, cultura e educação da cidade de São Paulo, desde 2007.</p>",
+  "cta": "<p>A Mostra Competitiva 2019 é composta de cinco blocos e no total 29 filmes curtos. Todos os blocos poderão ser assistidos no CCSP (Centro Cultural São Paulo), nas sessões de 15:30, 17:30 e 19:30 entre 10 e 14 de Setembro.</p>",
+  "contact": {
+    "email": "contato@entretodos.com.br",
+    "twitter_handle": "entretodos",
+    "github_handle": "festivalentretodos"
+  },
+  "background_color": "#333333",
+  "__gatsby_resolved": {
+    "fileRelativePath": "/content/data/info.json"
+  }
+}

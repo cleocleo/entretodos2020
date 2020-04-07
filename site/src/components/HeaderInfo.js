@@ -9,14 +9,18 @@ import headerInfoStyles from "../styles/components/headerinfo.module.scss"
 function HeaderInfo() {
   return (
     <section className={headerInfoStyles.headerinfo}>
-      <div className="sobre">
-        <h2>filmes curtos<br/> e direitos humanos</h2>
-        <p>13<sup>a</sup> edição - 2020</p>
-      </div>
+      <Link to={`/sobre`}>
+        <div className="sobre">
+          <h2>filmes curtos<br/> e direitos humanos</h2>
+          <p>13<sup>a</sup> edição - 2020</p>
+        </div>
+      </Link>
+      <Link to={`/inscricoes`}>
       <div className="inscricoes">
         <h2>inscrições</h2>
         <p>faça sua inscrição até 00/00</p>
       </div>
+      </Link>
     </section>
   )
 }
